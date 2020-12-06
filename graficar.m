@@ -1,5 +1,5 @@
 function [] = graficar(H,titulo)
-plot(step(H))
+step(H)
 title(titulo)
 grid on
 xlabel('Tiempo[s]')
